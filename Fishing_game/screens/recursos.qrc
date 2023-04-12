@@ -1,0 +1,11 @@
+<RCC>
+  <qresource prefix="images">
+    <file>lago.png</file>
+    <file>Daco_4550678.png</file>
+    <file>Daco_5639330.png</file>
+    <file>rio.png</file>
+    <file>oceano.png</file>
+    <file>azul.jpg</file>
+    <file>playa.jpg</file>
+  </qresource>
+</RCC>
