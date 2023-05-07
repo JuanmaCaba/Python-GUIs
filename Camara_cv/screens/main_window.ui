@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Main_window</class>
+ <widget class="QDialog" name="Main_window">
+  <property name="windowModality">
+   <enum>Qt::NonModal</enum>
+  </property>
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>961</width>
+    <height>629</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>961</width>
+    <height>629</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>961</width>
+    <height>629</height>
+   </size>
+  </property>
+  <property name="sizeIncrement">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>8</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qlineargradient(spread:pad, x1:0.518, y1:0.358, x2:0.534091, y2:0.937, stop:0 rgba(89, 57, 255, 255), stop:1 rgba(255, 255, 255, 255));</string>
+  </property>
+  <property name="sizeGripEnabled">
+   <bool>false</bool>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>100</y>
+     <width>311</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Bookman Old Style</family>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 25%;
+border-width: 5px;
+border-style: solid;
+border-color: (0,0,0);</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Box</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <property name="lineWidth">
+    <number>8</number>
+   </property>
+   <property name="midLineWidth">
+    <number>5</number>
+   </property>
+   <property name="text">
+    <string>Your camera</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_campath">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>520</y>
+     <width>311</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qradialgradient(spread:pad, cx:1, cy:1, radius:0.5, fx:1, fy:1, stop:0 rgba(255, 255, 255, 0));</string>
+   </property>
+   <property name="inputMask">
+    <string/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_loadfile">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>210</y>
+     <width>231</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="font">
+    <font>
+     <family>Nirmala UI</family>
+     <pointsize>14</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">.QPushButton {
+	background:linear-gradient(to bottom, #7519ff 5%, #474236 100%), url(:/logos/carpeta_logo_2.png);
+	background-color:#7519ff;
+	background-position: center center;
+    background-repeat: no-repeat;
+	border-radius:9px;
+	border:2px solid #333029;
+	
+}
+.QPushButton:hover {
+	background:linear-gradient(to bottom, #474236 5%, #7519ff 100%),url(:/logos/carpeta_logo_2.png);
+	background-position: center center;
+    background-repeat: no-repeat;
+	background-color:rgb(76, 46, 135);
+}
+.QPushButton:active {
+	position:relative;
+	top:1px;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_camara">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>350</y>
+     <width>231</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Minimum" vsizetype="MinimumExpanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="font">
+    <font>
+     <family>Nirmala UI</family>
+     <pointsize>14</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">.QPushButton {
+	background:linear-gradient(to bottom, #7519ff 5%, #474236 100%), url(:/logos/camara_logo_1.png);
+	background-color:#7519ff;
+	background-position: center center;
+    background-repeat: no-repeat;
+	border-radius:9px;
+	border:2px solid #333029;
+	
+}
+.QPushButton:hover {
+	background:linear-gradient(to bottom, #474236 5%, #7519ff 100%), url(:/logos/camara_logo_1.png);
+	background-position: center center;
+    background-repeat: no-repeat;
+	background-color:rgb(76, 46, 135);
+}
+.QPushButton:active {
+	position:relative;
+	top:1px;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>10</y>
+     <width>651</width>
+     <height>651</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0 rgba(255, 218, 218, 206), stop:0.35 rgba(255, 188, 188, 80), stop:0.4 rgba(255, 162, 162, 80), stop:0.425 rgba(151, 120, 255, 156), stop:0.44 rgba(252, 128, 128, 80), stop:1 rgba(255, 255, 255, 0));
+</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QPushButton" name="pushButton_buscardir">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>480</y>
+      <width>91</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(181, 174, 255);</string>
+    </property>
+    <property name="text">
+     <string>Buscar...</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>530</y>
+      <width>311</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qradialgradient(spread:pad, cx:1, cy:1, radius:0.5, fx:1, fy:1, stop:0 rgba(255, 255, 255, 0));
+</string>
+    </property>
+    <property name="text">
+     <string>Introduzca una dirección para guardar sus fotos</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+  <zorder>frame</zorder>
+  <zorder>label</zorder>
+  <zorder>lineEdit_campath</zorder>
+  <zorder>pushButton_loadfile</zorder>
+  <zorder>pushButton_camara</zorder>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

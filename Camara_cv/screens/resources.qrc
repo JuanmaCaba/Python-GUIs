@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="logos">
+    <file>left-arrow-in-circular-button_2.png</file>
+    <file>carpeta_logo_2.png</file>
+    <file>camara_logo_1.png</file>
+  </qresource>
+</RCC>
